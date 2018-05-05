@@ -24,11 +24,12 @@ if __name__ == "__main__":
     solution2015 = 'DCBCACBBACAABADDCACAAADBACDBCD'
     solution2016 = 'DCAACCDCBBAABCDADCCCACDACCDBCD'
     
-    q_inp = input("Which paper would you like to check? (2015 or 2016): ")
-
     paper_spec = False
     while not paper_spec:
-        if q_inp == '2015':
+        q_inp = input("Which paper would you like to check? (2015 or 2016): ")
+        if q_inp != '2015' and q_inp != '2016':
+            print("Wrong year specified")
+        elif q_inp == '2015':
             solution = solution2015
             paper_spec = True
         elif q_inp == '2016':
