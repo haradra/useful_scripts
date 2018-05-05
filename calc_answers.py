@@ -21,7 +21,7 @@ def calc_answers(solution, inp):
 
 
 if __name__ == "__main__":
-    solution2015 = 'DCBCACBBACAABADDCACAAADBACDBCD'
+    solution2015 = 'DCBCACBBACAABADDCACAACDBACDBCD'
     solution2016 = 'DCAACCDCBBAABCDADCCCACDACCDBCD'
     
     paper_spec = False
